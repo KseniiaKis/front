@@ -3,7 +3,6 @@
 	padding: 0;
 	margin: 0;
 	border: 0;
-	background-color: #e8e8e8;
 	color: #273d46;
 	font-family: 'Times New Roman';
 }
@@ -18,6 +17,7 @@ a:focus,a:active{outline: none;}
 nav,footer,header,aside{display: block;}
 
 html,body{
+	background-color: #e8e8e8;
 	height: 100%;
 	width: 100%;
 	font-size: 100%;
@@ -43,6 +43,8 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 
 header{
 	margin: 106px 108px 0 142px;
+	height: 1064px;
+	background: url(../img/ellipse_1_copy_4.png) center no-repeat;
 }
 
 header h2{
@@ -72,7 +74,7 @@ header h1{
 }
 
 .block1{
-	margin: 97px 370px 0 334px;
+	margin: -154px 370px 0 334px;
 	opacity: 0.8;
 	font-size: 24px;
 	line-height: 40px;
