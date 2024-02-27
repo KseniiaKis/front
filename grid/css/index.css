@@ -1,0 +1,132 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+*,*:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-family: Arial;
+	font-weight: 400;
+}
+input,button,textarea{font-family:inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none; }
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+/*--------------------*/
+
+.block{
+	margin: 20px auto;
+	max-width: 1120px;
+}
+
+.box {
+	display: grid;
+	grid-template-columns: repeat(4, 256px);
+	grid-template-rows: repeat(5, 256px);
+	grid-gap: 32px;
+	font-weight: 500;
+	line-height: 150%;
+	color: #FFFFFF;
+}
+
+.title{
+	margin: 40px auto;
+	max-width: 490px;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+}
+
+.small{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 16px;
+	font-size: 18px;
+}
+
+.price{
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.big{
+	padding: 16px 33px;
+	line-height: 135%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	grid-column: span 2;
+	grid-row: span 2;
+	font-size: 24px;
+}
+
+.info{
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.small:nth-child(1){
+	background:url(../img/25.jpg)
+}
+
+.small:nth-child(2){
+	background:url(../img/44.jpg)
+}
+
+.big:nth-child(3){
+	background:url(../img/34.jpg)
+}
+
+.small:nth-child(4){
+	background:url(../img/63.jpg)
+}
+
+.small:nth-child(5){
+	background:url(../img/64.jpg)
+}
+
+.big:nth-child(6){
+	background:url(../img/69.jpg)
+}
+
+.small:nth-child(7){
+	background:url(../img/65.jpg)
+}
+
+.small:nth-child(8){
+	background:url(../img/67.jpg)
+}
+
+.small:nth-child(9){
+	background:url(../img/66.jpg)
+}
+
+.small:nth-child(10){
+	background:url(../img/68.jpg)
+}
