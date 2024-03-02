@@ -48,7 +48,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .header{
-	border-top: 7px solid #3a83e5;
+	border-top: 1px solid #3a83e5;
 }
 
 .header__inner{
@@ -83,7 +83,7 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 }
 
 .top-info {
-	max-width: 555px;
+	max-width: 700px;
 	margin-right: 35px;
 	color: #ffffff;
 }
@@ -471,8 +471,17 @@ h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 	font-weight: 700;
 }
 
-.conpany{
-	margin-bottom: 95px;
+.company__inner{
+	max-width: 1060px;
+	margin: 0 auto 95px;
 }
 
+.company{
+	display: flex;
+	align-items: center;
+}
+
+.company li{
+	margin-right: 35px;
+}
   
