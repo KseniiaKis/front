@@ -23,21 +23,25 @@ html {
     text-transform: uppercase;
 }
 
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-text__inner{
+    position: relative;
+}
+
+
 .header__inner {
     padding-top: 47px;
-    background: url(../img/bg-header.png) #21062A;
+    background: url(../img/bg-header.png) no-repeat center #21062A;
     padding-bottom: 120px;
-    position: relative;
 }
 
 .phone {
     font-size: 36px;
     line-height: 53px;
-}
-
-.conteiner {
-    max-width: 1200px;
-    margin: 0 auto;
 }
 
 .header__info {
@@ -80,10 +84,7 @@ html {
     font-size: 14px;
     line-height: 21px;
     text-align: center;
-}
-
-.contact {
-    margin: 70px 0 100px;
+    margin-bottom: 70px;
 }
 
 .contact ul {
@@ -97,8 +98,8 @@ html {
 
 .header-img {
     position: absolute;
-    right: 220px;
-    bottom: -200px;
+    right: 0px;
+    bottom: -345px;
 }
 
 .content {
@@ -374,6 +375,7 @@ html {
     display: flex;
     justify-content: space-between;
     max-width: 1200px;
+    padding: 30px 0;
     margin: 0 auto;
     align-items: center;
 }
